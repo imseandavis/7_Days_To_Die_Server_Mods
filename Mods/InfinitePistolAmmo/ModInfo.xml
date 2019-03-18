@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="InfinitePistolAmmo" />
+		<Description value="Enables Infinite Pistol Ammo For The Pistol And Silenced Pistol" />
+		<Author value="Sean Davis" />
+		<Version value="1.0" />
+
+</ModInfo>
+</xml>
