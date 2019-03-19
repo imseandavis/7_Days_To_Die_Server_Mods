@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="CindarsMod-CraftableSolarPower" />
+		<Description value="Allows You To Craft Solar Panels and Solar Cells" />
+		<Author value="Sean Davis" />
+		<Version value="1.0" />
+</ModInfo>
+</xml>
