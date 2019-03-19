@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+	<configs>
+
+    <append xpath="/recipes">
+      
+      <!-- Add Lead Car Battery To Recipe Book - Yeah Science Level 5 -->
+			<recipe name="carBattery" count="1" craft_area="workbench" tags="learnable">
+				<ingredient name="resourceElectricParts" count="10"/>
+				<ingredient name="resourceAcid" count="5"/>			
+				<ingredient name="resourceScrapLead" count="5"/>
+				<ingredient name="resourceScrapPolymers" count="50"/>
+				<requirement name="ProgressionLevel" progression_name="perkYeahScience" operation="GTE" value="5"/>
+			</recipe>
+      
+    </append>
+
+	</configs>
