@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+	<configs>
+
+		<append xpath="/recipes">
+
+			<!-- Add Solar Cell To Recipe Book - Yeah Science Level 5 -->
+			<recipe name="solarCell" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceElectricParts" count="20"/>
+			<ingredient name="glassBulletproofPlate" count="1"/>
+			<ingredient name="resourceForgedSteel" count="6"/>
+			<requirement name="ProgressionLevel" progression_name="perkYeahScience" operation="GTE" value="5"/>
+			</recipe>
+
+			<!-- Add Solar Bank To Recipe Book - Yeah Science Level 5 -->
+			<recipe name="solarbank" count="1" craft_area="workbench" tags="learnable">
+				<ingredient name="resourceElectricParts" count="50"/>
+				<ingredient name="resourceForgedSteel" count="24"/>
+				<requirement name="ProgressionLevel" progression_name="perkYeahScience" operation="GTE" value="5"/>
+			</recipe>
+		  
+		</append>
+
+	</configs>
