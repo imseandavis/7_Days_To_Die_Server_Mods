@@ -9,6 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Zip Folder
-      run: zip -r release.zip .
+      run: zip -r release.zip MODS/
     - name: Release to Github
       run: echo "New Release Available!"
