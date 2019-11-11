@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Building New Mod Zip File As Release!        
+    - name: Zip Release
+      uses: TheDoctor0/zip-release@v0.2.0
