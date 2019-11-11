@@ -1,15 +1,14 @@
-name: CI
-
-on: [push]
-
+name: MasterDeployCI
+on:
+  push:
+    branches:
+      - master
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Building New Mod Zip File As Release!        
-    - name: Zip Release
-      uses: TheDoctor0/zip-release@v0.2.0
+    - name: Zip Folder
+      run: zip -r release.zip .
+    - name: Release to Github
+      run: echo "New Release Available!"
