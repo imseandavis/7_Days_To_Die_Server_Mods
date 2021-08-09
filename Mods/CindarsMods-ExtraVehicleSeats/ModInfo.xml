@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="CindarsMods-ExtraVehicleSeats" />
+        <Description value="Adds Additional Seating For All Vehicles Except The Choppa. Credit To JDStrawesome For Seat Positions" />
+        <Author value="Cindarius" />
+        <Version value="1.0.0" />
+		<Website value="http://github.com/imseandavis/7DaysToDie" />
+    </ModInfo>
+</xml>
