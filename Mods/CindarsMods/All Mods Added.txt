@@ -1,0 +1,4 @@
+Infinite Pistol - items.xml
+Enemy Hit Bars - XUI->window.xml
+Starting Player Items - entityitems.xml
+Updated Duke Note To Server RPG Note - Localization.txt

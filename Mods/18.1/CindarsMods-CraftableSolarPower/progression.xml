@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-	<configs>
-
-		<!-- Add Solar Cell and Solar Bank To Yeah! Science Level 5 -->
-		<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='5']/@tags">,solarCell,solarbank</append>
-
-	</configs>
