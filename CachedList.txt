@@ -1,4 +1,6 @@
-Bdubs Vehicles
-CCTV
-CindarsMods
-ZT-Unnecessarily Beautiful But Immersive
+[
+    "Bdubs Vehicles",
+    "CCTV",
+    "CindarsMods",
+    "ZT-Unnecessarily Beautiful But Immersive"
+]
